@@ -14,10 +14,12 @@ window.onload = function loadNav(){
 	var ul = document.createElement('ul');
 	ul.className = 'tab';
 	addTab(ul, 'index.html', 'Home', currentPage);
-	addTab(ul, 'page1.html', 'Page 1', currentPage);
-	addTab(ul, 'page2.html', 'Page 2', currentPage);
-	addTab(ul, 'page3.html', 'Page 3', currentPage);
-	addTab(ul, 'page4.html', 'Page 4', currentPage);
+	addTab(ul, 'FaceMiniGame.html', 'Face Mini-Game', currentPage);
+	addTab(ul, 'GG_Allison.html', 'GG and Allison', currentPage);
+	addTab(ul, 'GreenTeam.html', 'Green Team', currentPage);
+	addTab(ul, 'Katy_Laken.html', 'Katy and Laken', currentPage);
+	addTab(ul, 'Rockin.html', 'Rockin', currentPage);
+	addTab(ul, 'TeamJB.html', 'TeamJB', currentPage);
 
 	// Add the Header and Tabs to the container
 	headerContainer.appendChild(headerDiv);
