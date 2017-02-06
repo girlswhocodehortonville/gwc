@@ -35,6 +35,7 @@ function addTab(navlist, pageName, pageDisplayName, currentPageName)
 	}
 	navlist.appendChild(li);	
 
+	var alink = document.createElement('a');
 	alink.href = pageName;
 	alink.appendChild(document.createTextNode(pageDisplayName));
 	li.appendChild(alink);
