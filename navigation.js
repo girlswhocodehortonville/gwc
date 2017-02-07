@@ -19,7 +19,7 @@ window.onload = function loadNav(){
 	addTab(ul, 'GreenTeam.html', 'Green Team', currentPage);
 	addTab(ul, 'Katy_Laken.html', 'Katy and Laken', currentPage);
 	addTab(ul, 'Rockin.html', 'Rockin', currentPage);
-	addTab(ul, 'TeamJB.html', 'TeamJB', currentPage);
+	addTab(ul, 'GNK.html', 'Check Yourself', currentPage);
 
 	// Add the Header and Tabs to the container
 	headerContainer.appendChild(headerDiv);
