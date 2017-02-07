@@ -9,3 +9,4 @@ To include the header and navigation on a new page, add the script and style she
 	<script src="navigation.js"></script>
 
 To add your page name or title, update navigation.js - all pages must be in here to be included in the navigation bar.
+Include  <div id="headerContainer"></div> at the start of your page body.
