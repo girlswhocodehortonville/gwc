@@ -1,1 +1,26 @@
+ <!DOCTYPE html> 
+2 <html lang="en"> 
+3   <head> 
+4     <meta charset="utf-8"> 
+5     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+6     <meta name="viewport" content="width=device-width, initial-scale=1"> 
+7     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags --> 
+8     <meta name="description" content=""> 
+9     <meta name="author" content=""> 
+10 
+ 
+11     <title>Hortonvnille Girls Who Code</title> 
+12 	<link rel="stylesheet" type="text/css" href="navigation.css"> 
+13 	<script src="navigation.js"></script> 
+14 	<style></style> 
+15   </head> 
+16 
+ 
+17   <body> 
+18     <div id="headerContainer"></div> 
+19 	 
+20 	<div id="bodyContainer"> 
+21 		Put all your stuff here!! 
+22 	</div> 
+23   </body> 
 
