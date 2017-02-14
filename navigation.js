@@ -1,4 +1,6 @@
 window.onload = function loadNav(){
+	window.document.title = 'Hortonville Girls Who Code';
+	
 	// Get the main container for all the header stuff
 	var headerContainer = document.getElementById('headerContainer');
 	
