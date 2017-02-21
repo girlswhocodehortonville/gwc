@@ -26,6 +26,7 @@ body {
 float:left;}
 
 #right{width:25%;
+clear: both;
 float:right;}
 
 .header {
