@@ -23,16 +23,13 @@ body {
 }
 
 #left{
-	width:70%;
-	clear: left;
+	width:60%;
 	float:left;
 }
 
 #right{
 	width:25%;
-	clear: left;
-	float:right;
-	padding: 5%;
+	float:left;
 }
 
 #author{
