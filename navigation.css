@@ -16,7 +16,7 @@ body {
 }
 #bodyContainer{
 	margin:2px;
-	padding:5px;
+	padding:15px;
 	border: 1px solid #ccc;
 	height:5000px;
 	background-color:#ecf2f9
@@ -29,6 +29,7 @@ body {
 
 #right{
 	width:25%;
+	margin: 0 5%;
 	float:right;
 }
 
