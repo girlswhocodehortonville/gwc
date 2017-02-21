@@ -16,7 +16,7 @@ body {
 }
 #bodyContainer{
 	margin:2px;
-	padding:15px;
+	padding:5px;
 	border: 1px solid #ccc;
 	height:5000px;
 	background-color:#ecf2f9
@@ -25,7 +25,8 @@ body {
 #left{
 	width:60%;
 	float:left;
-	height:260;
+	height:260px;
+	padding:15px;
 }
 
 #right{
