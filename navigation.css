@@ -25,7 +25,7 @@ body {
 }
 
 #left{
-	width:65%;
+	width:60%;
 	float:left;	
 	padding:15px;
 
@@ -33,7 +33,7 @@ body {
 
 #right{
 	width:20%;
-	margin: 0 5%;
+	margin: 0 3%;
 	float:right;
 }
 
