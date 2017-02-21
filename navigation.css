@@ -25,6 +25,7 @@ body {
 #left{
 	width:60%;
 	float:left;
+	height:260;
 }
 
 #right{
@@ -34,8 +35,7 @@ body {
 }
 
 #author{
-	background-color:yellow;
-	height:260;
+
 }
 
 .header {
