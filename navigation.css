@@ -22,10 +22,10 @@ body {
 	background-color:#ecf2f9
 }
 
-.left{width:75%;
+#left{width:75%;
 float:left;}
 
-.right{width:25%;
+#right{width:25%;
 float:left;}
 
 .header {
