@@ -1,24 +1,24 @@
-<style>
 nav {
-ul {
+ul.tab {
     list-style-type: none;
     margin: 0;
     padding: 8px;
     background-color: #404040;
 }
-li {
+#li {
     display: inline;
     border-right: 1px solid #000000;
 }
-li a {
+#li a {
     text-align: center;
     padding: 14px 16px;
 }
-li a:link    {color:white; background-color:transparent; text-decoration:none}
-li a:visited {color:pink; background-color:transparent; text-decoration:none}
-li a:hover   {color:red; background-color:transparent; text-decoration:underline}
-li a:active  {color:yellow; background-color:transparent; text-decoration:underline}
-	}
+#li a:link    {color:white; background-color:transparent; text-decoration:none}
+#li a:visited {color:pink; background-color:transparent; text-decoration:none}
+#li a:hover   {color:red; background-color:transparent; text-decoration:underline}
+.activeTab 
+	{color:yellow; background-color:transparent; text-decoration:underline}
+}
 h1 {
 color: #262626;
 text-align: center;
@@ -29,5 +29,77 @@ text-decoration: underline;
 body {
 	
 }
-	
-</style>
+
+
+/* Erin's to use as guide
+
+
+body {
+	font-family:arial;
+}
+#bodyContainer{
+	margin:2px;
+	padding:15px;
+	border: 1px solid #ccc;
+	height:5000px;
+	background-color:#ecf2f9
+}
+
+#left{
+	width:60%;
+	float:left;
+}
+
+#right{
+	width:25%;
+	margin: 0 5%;
+	float:right;
+}
+
+#author{
+	background-color:yellow;
+	height:260;
+}
+
+.header {
+	font-size:50px;
+	color:#0077b3;
+	text-align:center;
+	padding:10px;
+	background-color:#ecf2f9;
+	border: 1px solid #ccc;
+	margin:2px;
+}
+.activeTab {
+	background-color:#9fbfdf;
+}
+ul.tab {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #c6d9ec;
+	margin:2px;
+}
+/* Float the list items side by side */
+/*
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+/*
+ul.tab li a, a:visited {
+	display: inline-block;
+	color: #204060;
+	text-align: center;
+	padding: 4px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+/* Change background color of links on hover */
+/*
+ul.tab li a:hover {
+	background-color:#006699;
+	color: white;
+}
+*/
