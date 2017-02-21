@@ -29,12 +29,12 @@ body {
 
 #right{
 	width:25%;
-	float:left;
+	float:right;
 }
 
 #author{
 	background-color:yellow;
-	height="260"
+	height="260px;"
 }
 
 .header {
