@@ -24,19 +24,18 @@ body {
 
 #left{
 	width:60%;
-	float:left;
-	height:260px;
+	float:left;	
 	padding:15px;
 }
 
 #right{
 	width:25%;
-	margin: 0 5%;
+	margin: 0 15px;
 	float:right;
 }
 
 #author{
-
+	height:260px;
 }
 
 .header {
