@@ -19,7 +19,7 @@ window.onload = function loadNav(){
 	addTab(ul, 'FaceMiniGame.html', 'Face Mini-Game', currentPage);
 	addTab(ul, 'GreenTeam.html', 'Green Team', currentPage);
 	addTab(ul, 'Rockin.html', 'Rockin', currentPage);
-	addTab(ul, 'GNK.html', 'Check Yourself', currentPage);
+	addTab(ul, 'GNK.html', 'Check Yoself', currentPage);
 	addTab(ul, 'happybeats.html', 'Happy Beats', currentPage);
 	addTab(ul, 'disorders.html', 'Depression Disorders', currentPage);
 
