@@ -22,12 +22,18 @@ body {
 	background-color:#ecf2f9
 }
 
-#left{width:75%;
-float:left;}
+#left{
+	width:75%;
+	clear: left;
+	float:left;
+}
 
-#right{width:25%;
-clear: both;
-float:right;}
+#right{
+	width:25%;
+	clear: left;
+	float:left;
+	padding: 5%;
+}
 
 #author{
 	background-color:yellow;
