@@ -20,7 +20,17 @@ body {
 	margin:2px;
 	padding:15px;
 	border: 1px solid #ccc;
-	background-color:#ecf2f9
+	background-color:#ecf2f9;
+	height: auto;
+}
+
+#bodyContainer:before,
+#bodyContainer:after {
+    content : "";
+    display : table;
+}
+#bodyContainer:after {
+    clear : both;
 }
 
 #about{
@@ -31,6 +41,7 @@ body {
 .author{
 	height:280px;
 	vertical-align: middle;
+	display:block;
 }
 
 .left{
@@ -40,10 +51,18 @@ body {
 }
 
 .right{
-	width:220px;
-	float:right;
+	width:260px;
+	float:left;
 	padding: 5px;
+	margin: 0 10px;
+	
 }
+
+.right  img{
+	display:block;
+    margin:auto;
+}
+
 
 .header {
 	font-size:50px;
@@ -86,8 +105,9 @@ ul.tab li a:hover {
 
 
 #footer{
-	bottom:10px;
-	height:20px; 
+	bottom:0;
+	height:40px; 
+	clear:both;
 }
 
 #footer ul {
@@ -101,3 +121,5 @@ ul.tab li a:hover {
     display: inline;
 	padding: 0 10px;
 }
+
+
