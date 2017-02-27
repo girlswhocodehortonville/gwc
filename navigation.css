@@ -1,4 +1,3 @@
-
 /* Style the list */
 
 /*
@@ -21,7 +20,6 @@ body {
 	margin:2px;
 	padding:15px;
 	border: 1px solid #ccc;
-	height:1500px;
 	background-color:#ecf2f9
 }
 
@@ -88,9 +86,18 @@ ul.tab li a:hover {
 
 
 #footer{
-	position:absolute;
-	bottom:0;
-	width:100%;
-	height:60px;   /* Height of the footer */
-	background:#6cf;
+	bottom:10px;
+	height:20px; 
+}
+
+#footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	text-align: center;
+}
+
+#footer li {
+    display: inline;
+	padding: 0 10px;
 }
