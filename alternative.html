@@ -8,25 +8,22 @@ ul {
     margin: 0;
     padding: 8px;
     background-color: #404040;
-    font-color: #000000;
 }
 
 li {
     display: inline;
-    font-color: #000000;
     border-right: 1px solid #000000;
 }
 
 li a {
-    color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
 }
 
-li a:hover {
-    text-color: #0;
-}
+li a:link    {color:white; background-color:transparent; text-decoration:none}
+li a:visited {color:white; background-color:transparent; text-decoration:none}
+li a:hover   {color:red; background-color:transparent; text-decoration:underline}
+li a:active  {color:yellow; background-color:transparent; text-decoration:underline}
 	
 h1 {
 color: #262626;
@@ -45,7 +42,7 @@ text-decoration: underline;
 <div id="headerContainer"></div>
 <nav>
 	<ul>
- 	<li><a href="#hbhome">Home</a></li>
+ 	<li><a href="#happybeats">Home</a></li>
   	<li><a href="#alternative">Alternative</a></li>
  	<li><a href="#poppunk">Pop Punk</a></li>
  	<li><a href="#acoustic">Acoustic</a></li>
