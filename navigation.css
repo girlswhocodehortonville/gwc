@@ -85,3 +85,8 @@ ul.tab li a:hover {
 	background-color:#006699;
 	color: white;
 }
+
+
+#footer{
+	display: inline;
+}
