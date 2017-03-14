@@ -51,6 +51,11 @@ body {
 	padding:15px;
 }
 
+@media only screen and (max-width: 500px) {
+    .left {
+       width:50%
+    }
+
 .right{
 	width:260px;
 	float:left;
