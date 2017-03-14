@@ -10,6 +10,12 @@
 		#9fbfdf - tab active page color
 */
 
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: yellow;
+    }
+
 body {
 	font-family:arial;
 	line-height: 1.75;
