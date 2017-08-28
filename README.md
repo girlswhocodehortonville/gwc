@@ -13,3 +13,4 @@ Include a div with the id="headerContainer" at the start of your page body.
 
 	<div id="headerContainer"></div>
 
+Check out the site at: 
